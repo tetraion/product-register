@@ -3,7 +3,10 @@ sudo: required
 service: docker
 
 before_install:
+<<<<<<< HEAD
   - docker login -u $DOKCER_USERNAME -p $DOCKER_ACCESS_TOKEN
+=======
+>>>>>>> origin/master
   - docker-compose up --build -d
 
 script:
